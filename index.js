@@ -4,7 +4,7 @@ let express = require('express'),
   routes = require('./server-assets/routes/index'),
   handlers = require('./utils/handlers'),
   server = express(),
-  port = process.env.PORT || 1582;
+  port = process.env.PORT || 8090;
 
 //Registers Middleware for server
 server.use(bodyParser.json())
